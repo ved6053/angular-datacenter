@@ -11,5 +11,6 @@ export class NavbarComponent implements OnInit {
 	refresh() {
 		this.onRefresh.emit();
  	}
-
+ ngOnInit() {
+  }
 }
